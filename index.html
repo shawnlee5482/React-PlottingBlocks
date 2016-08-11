@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nesting Components</title>
+	<style>
+		#app {
+			background-color: grey;
+			width: 1024px;
+			height: 868px;
+		}
+		.header {
+			width: 1024px;
+			height: 100px;
+			display: inline-block;
+			background-color: green;
+		}
+		.side {
+			display: inline-block;
+			width: 290px;
+			height: 668px;
+			background-color: blue;
+		}
+		.main {
+			width: 700px;
+			height: 668px;
+			margin-left: 10px;
+			display: inline-block;
+			background-color: red;
+		}
+		.sub1 {
+			width: 100px;
+			height: 200px;
+			float: left;
+/*			display: inline-block;*/
+			margin-left: 10px;
+			margin-top: 10px;
+			background-color: yellow;
+		}
+		.sub2 {
+			width: 700px;
+			height: 50px;
+			margin-top: 10px;
+			float:left;
+/*			display: inline-block;	*/		
+			background-color: magenta;
+		}
+
+	</style>	
+</head>
+
+<body>
+	<div id="app">
+	</div>
+</body>
+
+<!-- <script src='node_modules/react/dist/react.js'></script>
+<script src='node_modules/react-dom/dist/react-dom.js'></script> -->
+<script src='webpacked_code/bundle.js'></script>
+</html>
